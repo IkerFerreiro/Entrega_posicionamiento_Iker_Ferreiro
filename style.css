@@ -18,9 +18,8 @@ header {
   border-bottom: 0.3rem aqua dotted;
   position: fixed;
   bottom: 84%;
-  width: 100%;
-  
-  
+  width: 96%;
+  z-index: 2;
 }
 
 .sidebar {
@@ -28,10 +27,12 @@ header {
   height: 10rem;
   font-size: 0.9rem;
   padding: 1rem;
-  margin-top: 15%;
-  margin-bottom: 2%;
-  margin-left: 85%;
+  position: sticky;
+  left: 80%;
+  margin-bottom: 2rem;
+  margin-top: 11rem;
   border: 0.3rem aqua dotted;
+  z-index: 1;
 }
 
 .content {
@@ -47,6 +48,7 @@ header {
   text-align: center;
   line-height: 0.8rem;
   padding: 1%;
+  margin-top: 3%;
 }
 
 footer{
@@ -56,8 +58,7 @@ footer{
   border-bottom: 0.3rem aqua dotted; 
   text-align: center;
   position: sticky;
-  top: 94%;
+  margin-top: 3%;
+  top: 100%;
   width: 100%;
 }
-
- 
